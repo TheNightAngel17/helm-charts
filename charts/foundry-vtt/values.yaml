@@ -284,7 +284,7 @@ foundryvtt:
   upnp: false
 
   ## Version of Foundry VTT to install.
-  version: "12.331.0"
+  version: "12.331"
 
   ## The world startup at system start.
   world: ""
