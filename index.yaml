@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  foundry-vtt:
+  - apiVersion: v2
+    appVersion: v12.331.0
+    created: "2024-12-18T05:16:19.305144028Z"
+    description: Foundry Virtual Tabletop
+    digest: d6e858841b87c29185988529c72506c123cfc126b239ed1f830c3860e5c1b7a3
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: 29760146+TheNightAngel17@users.noreply.github.com
+      name: thenightangel17
+    name: foundry-vtt
+    sources:
+    - https://github.com/TheNightAngel17/foundry-vtt/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://github.com/TheNightAngel17/helm-charts/releases/download/foundry-vtt-12.331.0/foundry-vtt-12.331.0.tgz
+    version: 12.331.0
+generated: "2024-12-18T05:16:19.305192559Z"
