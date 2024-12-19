@@ -14,6 +14,29 @@ entries:
   foundry-vtt:
   - apiVersion: v2
     appVersion: v12.331
+    created: "2024-12-19T04:56:30.280915478Z"
+    description: Foundry Virtual Tabletop
+    digest: 298df44b34e111b5cab09a7106da01a15ab58f0f1b74762120d194db98aa0f4e
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: 29760146+TheNightAngel17@users.noreply.github.com
+      name: thenightangel17
+    name: foundry-vtt
+    sources:
+    - https://github.com/TheNightAngel17/helm-charts/tree/main/charts/foundry-vtt
+    type: application
+    urls:
+    - https://github.com/TheNightAngel17/helm-charts/releases/download/foundry-vtt-12.331.3/foundry-vtt-12.331.3.tgz
+    version: 12.331.3
+  - apiVersion: v2
+    appVersion: v12.331
     created: "2024-12-19T04:49:09.902073964Z"
     description: Foundry Virtual Tabletop
     digest: e1a43b0047bd83a3cf615653e61631be5a4d1c9d047fc6aafae4a242912a7f6a
@@ -81,4 +104,4 @@ entries:
     urls:
     - https://github.com/TheNightAngel17/helm-charts/releases/download/foundry-vtt-12.331.0/foundry-vtt-12.331.0.tgz
     version: 12.331.0
-generated: "2024-12-19T04:49:09.902092319Z"
+generated: "2024-12-19T04:56:30.280936998Z"
