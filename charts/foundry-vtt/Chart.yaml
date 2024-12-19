@@ -13,7 +13,7 @@ keywords:
   - foundryvtt
   - foundry
 sources:
-  - https://github.com/TheNightAngel17/foundry-vtt/tree/main/incubator/foundry-vtt
+  - https://github.com/TheNightAngel17/helm-charts/tree/main/charts/foundry-vtt
 maintainers:
   - name: thenightangel17
     email: 29760146+TheNightAngel17@users.noreply.github.com
