@@ -107,6 +107,25 @@ entries:
   mlx-portfolio:
   - apiVersion: v2
     appVersion: 0.0.2
+    created: "2025-07-08T16:51:09.906658183Z"
+    description: A Helm chart for deploying my portfolio website
+    digest: d0815f57aabc2fda0817cdbb93dfc963ee976ccd73cdeaf4756496c13a9858a3
+    keywords:
+    - website
+    - portfolio
+    - personal
+    maintainers:
+    - email: 29760146+TheNightAngel17@users.noreply.github.com
+      name: thenightangel17
+    name: mlx-portfolio
+    sources:
+    - https://github.com/TheNightAngel17/helm-charts/tree/main/charts/mlx-portfolio
+    type: application
+    urls:
+    - https://github.com/TheNightAngel17/helm-charts/releases/download/mlx-portfolio-0.1.1/mlx-portfolio-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.0.2
     created: "2025-07-08T16:23:58.734001455Z"
     description: A Helm chart for deploying my portfolio website
     digest: 80133207524299b53596ce2a6bfe57752004f17768f541325bbd9a50a5469c8d
@@ -124,4 +143,4 @@ entries:
     urls:
     - https://github.com/TheNightAngel17/helm-charts/releases/download/mlx-portfolio-0.1.0/mlx-portfolio-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-08T16:23:58.734015411Z"
+generated: "2025-07-08T16:51:09.906676316Z"
