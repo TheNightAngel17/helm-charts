@@ -104,4 +104,24 @@ entries:
     urls:
     - https://github.com/TheNightAngel17/helm-charts/releases/download/foundry-vtt-12.331.0/foundry-vtt-12.331.0.tgz
     version: 12.331.0
-generated: "2024-12-19T04:56:30.280936998Z"
+  mlx-portfolio:
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-07-08T16:23:58.734001455Z"
+    description: A Helm chart for deploying my portfolio website
+    digest: 80133207524299b53596ce2a6bfe57752004f17768f541325bbd9a50a5469c8d
+    keywords:
+    - website
+    - portfolio
+    - personal
+    maintainers:
+    - email: 29760146+TheNightAngel17@users.noreply.github.com
+      name: thenightangel17
+    name: mlx-portfolio
+    sources:
+    - https://github.com/TheNightAngel17/helm-charts/tree/main/charts/mlx-portfolio
+    type: application
+    urls:
+    - https://github.com/TheNightAngel17/helm-charts/releases/download/mlx-portfolio-0.1.0/mlx-portfolio-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-07-08T16:23:58.734015411Z"
