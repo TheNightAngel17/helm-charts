@@ -25,11 +25,11 @@ helm repo add mlx-charts https://thenightangel17.github.io/helm-charts/
 ```
 
 ```bash
-helm upgrade --install ddb-proxy mlx-charts/mlx-portfolio
+helm upgrade --install mlx-portfolio mlx-charts/mlx-portfolio
 ```
 
 If you wish to add values, feel free to pass them in.
 
 ```bash
-helm upgrade --install ddb-proxy mlx-charts/mlx-portfolio -f my-values.yaml
+helm upgrade --install mlx-portfolio mlx-charts/mlx-portfolio -f my-values.yaml
 ```
