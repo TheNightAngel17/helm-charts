@@ -13,6 +13,29 @@ entries:
     version: 0.1.0
   foundry-vtt:
   - apiVersion: v2
+    appVersion: v12.343
+    created: "2025-07-12T02:10:45.849962362Z"
+    description: Foundry Virtual Tabletop
+    digest: f1d35796e043b21683bf8c2faa1506da7d76ab1e2e7c7f821ebda29238ef86a5
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: 29760146+TheNightAngel17@users.noreply.github.com
+      name: thenightangel17
+    name: foundry-vtt
+    sources:
+    - https://github.com/TheNightAngel17/helm-charts/tree/main/charts/foundry-vtt
+    type: application
+    urls:
+    - https://github.com/TheNightAngel17/helm-charts/releases/download/foundry-vtt-12.343.0/foundry-vtt-12.343.0.tgz
+    version: 12.343.0
+  - apiVersion: v2
     appVersion: v12.331
     created: "2024-12-19T04:56:30.280915478Z"
     description: Foundry Virtual Tabletop
@@ -143,4 +166,4 @@ entries:
     urls:
     - https://github.com/TheNightAngel17/helm-charts/releases/download/mlx-portfolio-0.1.0/mlx-portfolio-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-08T16:51:09.906676316Z"
+generated: "2025-07-12T02:10:45.849987028Z"
