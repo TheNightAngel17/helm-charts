@@ -57,10 +57,10 @@ spec:
         env:
           - name: UV_THREADPOOL_SIZE
             value: {{ .Values.threadCount | quote }}
-          {{- if .Values.container.cache }}
-          - name: CONTAINER_CACHE
-            value: {{ .Values.container.cache }}
-          {{- end }}
+          # {{- if .Values.container.cache }}
+          # - name: CONTAINER_CACHE
+          #   value: {{ .Values.container.cache }}
+          # {{- end }}
           {{- if .Values.container.gid }}
           - name: FOUNDRY_GID
             value: {{ .Values.container.gid | quote }}
