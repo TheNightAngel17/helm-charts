@@ -149,6 +149,10 @@ spec:
                 {{- end }}
                 key: licenseKey
           {{- end }}
+          {{- if .Values.foundryvtt.compressWebSockets }}
+          - name: FOUNDRY_COMPRESS_WEBSOCKET
+            value: {{ .Values.foundryvtt.compressWebSockets | quote }}
+          {{- end }}
           {{- if .Values.foundryvtt.minifyStaticFiles }}
           - name: FOUNDRY_MINIFY_STATIC_FILES
             value: {{ .Values.foundryvtt.minifyStaticFiles | quote }}

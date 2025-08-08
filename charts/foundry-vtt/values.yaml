@@ -241,7 +241,10 @@ foundryvtt:
   language: en.core
 
   ## Set to `true` to reduce network traffic by serving minified static JavaScript and CSS files.  Enabling this setting is recommended for most users, but module developers may wish to disable it. Default is `false`.
-  minifyStaticFiles: false
+  minifyStaticFiles: true
+
+  ## Set to `true` to reduce network traffic by compressing websocket data.  Enabling this setting is recommended for most users, but module developers may wish to disable it. Default is `false`.
+  compressWebSockets: true
 
   ## Choose the CSS theme for the setup page. Choose from `foundry`, `fantasy`, or `scifi`.
   cssTheme: foundry
